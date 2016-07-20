@@ -66,5 +66,6 @@ def friends_of_friends_ids_bad(user):
 
 print (friend["id"] for friend in users[0]["friends"])  # need to check code on this line as well 
 
+#code in the book started not behaving so I skipped ahead to the next chapta
 
 
