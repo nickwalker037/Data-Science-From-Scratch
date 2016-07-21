@@ -30,13 +30,3 @@ standard_deviation(num_friends)                             # 9.03
 def interquartile_range(x):
     return quantile(x, 0.75) - quantile(x, 0.25)
 interquartile_range(num_friends)                            # 6
-
-
-# ----- CORRELATION ----- #
-
-# Covariance
-# whereas variance measures how a single variable deviates from its mean, covariance measures how two variables vary in tandem from their means
-def covariance(x, y):
-    n = len(x)
-    return dot(de_mean(x), de_mean(y)) / (n - 1)
-covariance(num_friends, daily_minutes)                      # 22.43
