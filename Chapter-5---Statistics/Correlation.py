@@ -1,3 +1,12 @@
+# ----- CORRELATION ----- #
+
+# Covariance
+# whereas variance measures how a single variable deviates from its mean, covariance measures how two variables vary in tandem from their means
+def covariance(x, y):
+    n = len(x)
+    return dot(de_mean(x), de_mean(y)) / (n - 1)
+covariance(num_friends, daily_minutes)                      # 22.43
+
 # Correlation
 def correlation(x, y):
     stdev_x = standard_deviation(x)
