@@ -1,4 +1,4 @@
- ----- HYPOTHESIS AND INFERENCE ----- #
+# ----- HYPOTHESIS AND INFERENCE ----- #
 
 
 # Ex. Coin flip
@@ -77,4 +77,3 @@ type_2_probability = normal_probability_below(hi, mu_1, sigma_1)
 power = 1 - type_2_probability                                          # 0.936
 # this is a more powerful test, since it no longer rejects Ho when X is below 469 (which is very unlikely to happen if H1 is true)
 # and it rejects Ho when X is between 526 and 531 (which is somewhat likely to happen if H1 is true)
-
