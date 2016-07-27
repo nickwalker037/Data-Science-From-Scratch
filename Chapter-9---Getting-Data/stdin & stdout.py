@@ -57,3 +57,16 @@ for word, count in counter.most_common(num_words):
     sys.stdout.write("\t")
     sys.stdout.write(word)
     sys.stdout.write("\n")
+
+# After which you could:
+C:\DataScience>type the_bible.txt | python most_common_words.py 10
+    64193   the
+    51380   and
+    34753   of
+    13643   to 
+    12799   that
+    12560   in 
+    10263   he 
+    9840    shall 
+    8987    unto 
+    8836    for
