@@ -50,12 +50,3 @@ return 2 * p * r  (p + r)
 # Usually the choice of a model involves a trade-off between precision and recall
 # A model that predicts "yes" when it's even a little bit confident will probably have a high recall but a low precision; whereas the opposite situation is true as well
 # you could think of this as a trade-off between false positives and false negatives
-
-
-# ----- FEATURE EXTRACTION AND SELECTION ----- # 
-
-# As discussed before:
-# when your data doesn't have enough features, your model is likely to underfit
-# when your data has too many features, it's easy to overfit
-# But what are features and where do they come from?
-# FEATURES: are whatever inputs we provide to our model
